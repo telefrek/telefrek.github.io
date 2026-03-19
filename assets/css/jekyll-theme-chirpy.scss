@@ -1,7 +1,12 @@
 ---
 ---
 
-@import 'main';
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == "production" -%}
+  .bundle
+{%- endif -%}
+';
 
 /* Telefrek branding overrides
  * Primary dark:    #11131F
@@ -54,11 +59,12 @@
 }
 
 /* Fix sidebar nav — remove any inherited list bullets */
-#sidebar .nav {
-  list-style: none;
+#sidebar ul.nav,
+#sidebar ul.nav li,
+#sidebar .nav,
+#sidebar .nav .nav-item {
+  list-style: none !important;
+  list-style-type: none !important;
   padding-left: 0;
-}
-
-#sidebar .nav-item {
-  list-style: none;
+  margin-left: 0;
 }
