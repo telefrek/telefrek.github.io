@@ -1,0 +1,53 @@
+---
+---
+
+@import 'main';
+
+/* Telefrek branding overrides
+ * Primary dark:    #11131F
+ * Accent cyan:     #04E2FF
+ * Button blue:     #2E89FF
+ * Highlight gold:  #D4A017
+ * Text:            #F8FAFC
+ */
+
+:root[data-mode='dark'],
+:root {
+  /* Override link/accent color to Telefrek cyan */
+  --link-color: #04E2FF;
+  --link-underline-color: rgba(4, 226, 255, 0.3);
+
+  /* Override button color to Telefrek blue */
+  --btn-primary-bg: #2E89FF;
+  --btn-primary-hover-bg: #1a6fd9;
+
+  /* Override sidebar and main background */
+  --sidebar-bg: #11131F;
+  --main-bg: #1a1c2e;
+  --card-bg: #1e2035;
+
+  /* Override text colors */
+  --text-color: #F8FAFC;
+  --text-muted-color: #a0a4b8;
+  --heading-color: #F8FAFC;
+
+  /* Telefrek gold highlights */
+  --telefrek-gold: #D4A017;
+  --telefrek-gold-light: #E8B84A;
+}
+
+/* Gold accent on headings */
+h1, h2 {
+  border-bottom: 2px solid var(--telefrek-gold);
+  padding-bottom: 0.3rem;
+}
+
+/* Gold accent on sidebar active state */
+.nav-item.active .nav-link {
+  color: var(--telefrek-gold) !important;
+}
+
+/* Gold accent on tag/category badges */
+.tag, .categories .card-body a {
+  color: var(--telefrek-gold-light);
+}
