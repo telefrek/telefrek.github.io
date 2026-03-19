@@ -16,8 +16,10 @@ We believe in delivering enterprise-grade performance at scale with minimal reso
 
 ## Get In Touch
 
-- **General inquiries:** [hello@telefrek.com](mailto:hello@telefrek.com)
-- **Partnerships:** [partners@telefrek.com](mailto:partners@telefrek.com)
-- **Privacy:** [privacy@telefrek.com](mailto:privacy@telefrek.com)
+| | |
+|---|---|
+| **General inquiries** | [hello@telefrek.com](mailto:hello@telefrek.com) |
+| **Partnerships** | [partners@telefrek.com](mailto:partners@telefrek.com) |
+| **Privacy** | [privacy@telefrek.com](mailto:privacy@telefrek.com) |
 
 Sanford, NC

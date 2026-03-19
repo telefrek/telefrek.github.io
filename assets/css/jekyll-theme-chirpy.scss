@@ -36,8 +36,9 @@
   --telefrek-gold-light: #E8B84A;
 }
 
-/* Gold accent on headings */
-h1, h2 {
+/* Gold accent on content headings only */
+#main-wrapper .content h1,
+#main-wrapper .content h2 {
   border-bottom: 2px solid var(--telefrek-gold);
   padding-bottom: 0.3rem;
 }
@@ -50,4 +51,14 @@ h1, h2 {
 /* Gold accent on tag/category badges */
 .tag, .categories .card-body a {
   color: var(--telefrek-gold-light);
+}
+
+/* Fix sidebar nav — remove any inherited list bullets */
+#sidebar .nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sidebar .nav-item {
+  list-style: none;
 }
